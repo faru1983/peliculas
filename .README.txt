@@ -1,0 +1,25 @@
+INSTRUCCIONES:
+Exporta tu catálogo en formato .CSV con el nombre "movies.csv".
+
+En la misma carpeta se exportarán automáticamente las imágenes dentro de una carpeta llamada "movies.csv_pics".
+
+Una vez exportado el archivo "movies.csv", ábrelo con Notepad++ y cambia la codificación de ANSI a UTF-8. Para hacerlo, haz clic en la parte inferior derecha donde dice ANSI, selecciona "Convertir a UTF-8" y guarda el archivo antes de cerrar el programa.
+
+Si todo salió bien, tendrás dos archivos y una carpeta que deberás subir a tu servidor web:
+
+index.html → Es tu página web con el catálogo dinámico y responsivo.
+movies.csv → Es tu base de datos de películas.
+movies.csv_pics → Carpeta con las imágenes.
+
+NOTAS:
+Asegúrate de mantener estos mismos nombres para la base de datos y la carpeta; de lo contrario, deberás modificar el código HTML para reflejar los cambios.
+
+Importante: En la sección "Comentarios" de Ant Movie Catalog, he utilizado este espacio para agregar el código del tráiler de YouTube de cada película.
+
+Por ejemplo, si la dirección del tráiler en YouTube es:
+"https://www.youtube.com/watch?v=OM0tSTEQCQA",
+solo debes escribir en la sección Comentarios:
+"OM0tSTEQCQA".
+
+
+https://github.com/faru1983
